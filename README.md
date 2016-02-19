@@ -1,3 +1,4 @@
 # wechatjs
-
-## 来自腾讯微信的js
+项目包括：
+- 验证token的demo
+- 获取config的demo

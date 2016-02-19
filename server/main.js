@@ -5,8 +5,8 @@
  * @version $Id$
  */
 //添加appid 和 appsecret
-var appId="wx7257908b33bb4d1a";
-var appSecret="bfcc02065eba179a7fefe6ff1e85621a";
+var appId="*****"; //*****为你的appid
+var appSecret="#####";//#####为你的appsecret
 
 
 //生成签名随机串

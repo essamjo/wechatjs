@@ -1,0 +1,24 @@
+<head>
+  <title>jhwx</title>
+</head>
+
+<body>
+  <h1>wx_jsapi</h1>
+
+      <h3 id="menu-image">图像接口</h3>
+      <span class="desc">拍照或从手机相册中选图接口</span>
+      <button class="btn btn_primary" id="chooseImage">chooseImage</button><br>
+      {{> ticket}} <br>
+
+</body>
+<template name="ticket"> 
+  {{#each ticket}}
+    jsapiticket:  {{jsapi_ticket}} ----- expire_time : {{expire_time}}
+  {{/each}}
+ <br>
+ {{#each token}}
+    token:  {{access_token}} ----- expire_time : {{expire_time}}
+  {{/each}}
+  <br>
+ 总数：{{ticketcount}}
+</template>

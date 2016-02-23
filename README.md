@@ -11,7 +11,8 @@
 ### 2. 整理文件夹，编写代码
 #### 1.删除meteor生成 的，html、css、js 文件。建立文件夹如图
 ![整理文件夹](http://7xr0mq.com1.z0.glb.clouddn.com/20160218_step2.png)
-为什么这样？方便以后开发。
+
+为什么这样？参考了官方推荐的第二种文件组织方法。[相关参考:Organizing Your Project](http://docs.meteor.com/#/full/structuringyourapp)
 #### 2.把加密sha算法文件在server文件夹里
 在微信jssdk说明文档里下载官方的[示例代码](http://demo.open.weixin.qq.com/jssdk/sample.zip) ，解压里面的文件,在node\node_modules\jssha\src 文件家里，找到sha.js 。将其放到项目的server文件夹下。
 

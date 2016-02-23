@@ -1,7 +1,7 @@
 # wechatjs
 项目包括：
 - 验证token的demo
-- 获取config的demo
+- 通过config接口注入权限验证配置的demo
 
 ##验证token的实施步骤
 ### 1. meteor新建项目

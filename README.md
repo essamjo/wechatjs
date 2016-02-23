@@ -6,6 +6,7 @@
 ##验证token的实施步骤
 ### 1. meteor新建项目
 以jhwx为例
+
 ![新建项目](http://7xr0mq.com1.z0.glb.clouddn.com/20160218_step1.png)
 
 ### 2. 整理文件夹，编写代码
